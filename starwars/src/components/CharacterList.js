@@ -3,7 +3,7 @@ import StarWarsCharacters from "./StarWarsCharacters";
 import "./StarWars.css";
 
 const CharacterList = props => (
-  <ul>
+  <ul className="character-list">
     {props.characters.map(c => (
       <li className="character" key={c.url}>
         <StarWarsCharacters character={c} capital={props.capital} />

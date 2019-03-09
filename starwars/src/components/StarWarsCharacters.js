@@ -8,9 +8,9 @@ const StarWarsCharacters = props => {
   return (
     <React.Fragment>
       <h2>{char.name}</h2>
-      <ul>
+      <ul className="ui list attributes">
         <li>Height: {char.height} cm</li>
-        <li>Mass: {char.mas} cm</li>
+        <li>Mass: {char.mas} kg</li>
         <li>Skin Color: {props.capital(char.skin_color)} </li>
         <li>Birth Year: {props.capital(char.birth_year)} </li>
         <li>Eye Color: {props.capital(char.eye_color)} </li>
