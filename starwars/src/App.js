@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 import "./App.css";
+import CharacterList from "./components/CharacterList";
 
 class App extends Component {
   constructor() {
     super();
     this.state = {
-      starwarsChars: [],
-      char: ""
+      starwarsChars: []
+      // char: ""
     };
   }
 
@@ -30,10 +31,16 @@ class App extends Component {
       });
   };
 
+  capital = str => str.charAt(0).toUpperCase() + str.slice(1); // capitalize first letter of specifc props on starwarschars object
+
   render() {
     return (
       <div className="App">
         <h1 className="Header">React Wars</h1>
+        <CharacterList
+          characters={this.state.starwarsChars}
+          capital={this.capital}
+        />
       </div>
     );
   }
