@@ -31,6 +31,23 @@ class App extends Component {
       });
   };
 
+  // getResults = (charIdx, URL) => {
+  //   // feel free to research what this code is doing.
+  //   // At a high level we are calling an API to fetch some starwars data from the open web.
+  //   // We then take that data and resolve it our state.
+  //   fetch(URL)
+  //     .then(res => {
+  //       return res.json();
+  //     })
+  //     .then(data => {
+  //       this.setState({ prevState => {
+  //       }
+  //     })
+  //     .catch(err => {
+  //       throw new Error(err);
+  //     });
+  // };
+
   capital = str => str.charAt(0).toUpperCase() + str.slice(1); // capitalize first letter of specifc props on starwarschars object
 
   render() {
