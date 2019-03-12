@@ -1,0 +1,45 @@
+h2 {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 0 ;
+}
+
+.character-list {
+    list-style-type: none ;
+    margin:  0 ;
+    padding: 0 ;
+    padding-left: 3px ;
+}
+
+.character {
+    margin-top: 30px ;
+}
+
+.character ul {
+    margin-left: 0px ;
+}
+
+ul {
+    border: 3px solid #326C9D;
+}
+
+.attributes {
+    margin-top: 0 ;
+    padding-top: 8px ;
+    padding-left: 0;
+    margin-lefT: 0;
+}
+
+
+ul.attributes {
+    list-style-type: none;
+}
+
+.attributes li {
+    margin: 0;
+    padding: 5px 0 5px 50px;
+    background-image: url('https://www.ibm.com/thought-leadership/scienceandstarwars/images/share-lightsaber-purple.jpg');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 200px;
+}
